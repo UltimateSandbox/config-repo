@@ -1,4 +1,13 @@
 ---
-server.port: 9198
-server.servlet.context-path: /ownerapi
-eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka
+server:
+  port: 9198
+  servlet:
+    context-path: /ownerapi
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+  console:
+    enabled: true
+    path: /h2-console
+message: Hello from github
