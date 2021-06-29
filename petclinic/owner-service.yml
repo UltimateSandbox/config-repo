@@ -1,4 +1,4 @@
 ---
-server.port=9198
+server.port: 9198
 server.servlet.context-path: /ownerapi
 eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka
