@@ -1,0 +1,9 @@
+---
+sessionTimeout: 1200000
+songLimit: 12
+playlistLimit: 5
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761
